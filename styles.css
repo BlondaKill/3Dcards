@@ -51,7 +51,7 @@ body {
   color: white;
 }
 .card-front {
-    background-image: url(https://i.pinimg.com/564x/15/dc/30/15dc30af29194fa3b91e9de015eb646b.jpg);
+  background-image: url(https://i.pinimg.com/564x/15/dc/30/15dc30af29194fa3b91e9de015eb646b.jpg);
   background-color: rgba(255, 163, 42, 0.2);
   align-items: center;
 }
