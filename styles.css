@@ -14,8 +14,15 @@ body {
   display: flex;
 }
 
+.card-container {
+  display: flex;
+  gap: 40px; 
+  
+}
+
 .card {
   width: 400px;
+  
 }
 
 .card-content {
@@ -23,7 +30,9 @@ body {
   padding: 15rem 5rem;
   transform-style: preserve-3d;
   transition: transform 3s;
+  
 }
+
 .card:hover .card-content {
   transform: rotateY(180deg);
 }
@@ -119,6 +128,8 @@ body {
 
 .card1 {
   width: 400px;
+  
+  
 }
 
 .card-content1 {
@@ -126,6 +137,8 @@ body {
   padding: 15rem 5rem;
   transform-style: preserve-3d;
   transition: transform 3s;
+  
+  
 }
 .card1:hover .card-content1 {
   transform: rotateY(180deg);
@@ -222,6 +235,7 @@ body {
 
 .card2 {
   width: 400px;
+  
 }
 
 .card-content2 {
@@ -229,6 +243,7 @@ body {
   padding: 15rem 5rem;
   transform-style: preserve-3d;
   transition: transform 3s;
+  
 }
 .card2:hover .card-content2 {
   transform: rotateY(180deg);
@@ -316,7 +331,7 @@ body {
   transition: 0.3s ease;
 }
 .btn2:hover {
-  background-color: rgb(185, 164, 0);
+  background-color: red;
   color: white;
-  border: 2px solid rgb(185, 164, 0);
+  border: 2px solid white;
 }
